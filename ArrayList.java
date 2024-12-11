@@ -76,16 +76,13 @@ public class ArrayList {
 
     // Display the list
     public void display() {
-        if (noOfElements == 0) {
-            System.out.println("List is empty");
-        } else {
+        System.out.println("[");
             for (int i = 0; i < noOfElements; i++) {
                 System.out.print(array[i] + " ");
-            }
-            System.out.println();
+            System.out.println("]");
         }
     }
-
+    
     // Check if the list is empty
     public boolean isEmpty() {
         return noOfElements == 0;
