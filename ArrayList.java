@@ -79,8 +79,8 @@ public class ArrayList {
         System.out.println("[");
             for (int i = 0; i < noOfElements; i++) {
                 System.out.print(array[i] + " ");
+            }
             System.out.println("]");
-        }
     }
     
     // Check if the list is empty
